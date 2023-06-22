@@ -8,9 +8,9 @@ public class Triangle {
 	
 	public double area() {
 		double p = (a + b + c) / 2.0;
-		double result = Math.sqrt(p *(p - a) * (p - b) * (p - c));
-		return result;
-		// POSSO COLOCAR DIRETAMENTE O "return Math.sqrt(p *(p - a) * (p - b) * (p - c));"
+		return Math.sqrt(p *(p - a) * (p - b) * (p - c));
+		
+		// POSSO COLOCAR DIRETAMENTE O "double result = Math.sqrt(p *(p - a) * (p - b) * (p - c)); return result;"
 	}
 	
 }
