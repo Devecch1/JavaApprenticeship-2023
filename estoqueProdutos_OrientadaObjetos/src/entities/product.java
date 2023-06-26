@@ -17,10 +17,19 @@ public class product {
 	public void removeProducts(int quantity) {
 		this.quantity -= quantity;				// COMO SE FOSSE " this.quantity = quantity - quantity; "
 	}
+	
+	public String toString() {
+		return name 
+			 + ", $ " 
+			 + String.format("%.2f", price) 
+			 + ", " 
+			 + quantity 
+			 + " units, Total: $ " 
+			 + String.format("%.2f", totalValueInStock());
+	}
 
 
 
 }
 
 
-//Teste
