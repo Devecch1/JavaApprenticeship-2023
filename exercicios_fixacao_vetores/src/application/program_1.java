@@ -27,7 +27,7 @@ public class program_1 {
 			int number = sc.nextInt();
 			vect[i] = new vector_1(number);
 		}
-		
+		System.out.println();
 		
 		sc.close();
 	}
